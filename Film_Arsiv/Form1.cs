@@ -42,7 +42,7 @@ namespace Film_Arsiv
         {
             // Form Yüklendiği sırada filmgetir metodunu çalıştır.
             filmgetir();
-            
+
         }
 
         private void BtnKaydet_Click(object sender, EventArgs e)
@@ -85,3 +85,5 @@ namespace Film_Arsiv
         private void BtnTamEkran_Click(object sender, EventArgs e)
         {
             //ÖDEV
+        }
+    }
