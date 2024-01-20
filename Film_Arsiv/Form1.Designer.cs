@@ -189,6 +189,7 @@
             this.BtnKaydet.TabIndex = 6;
             this.BtnKaydet.Text = "Kaydet";
             this.BtnKaydet.UseVisualStyleBackColor = true;
+            this.BtnKaydet.Click += new System.EventHandler(this.BtnKaydet_Click);
             // 
             // groupBox4
             // 
@@ -211,6 +212,7 @@
             this.BtnTamEkran.TabIndex = 8;
             this.BtnTamEkran.Text = "TAM EKRAN";
             this.BtnTamEkran.UseVisualStyleBackColor = true;
+            this.BtnTamEkran.Click += new System.EventHandler(this.BtnTamEkran_Click);
             // 
             // BtHakkimizda
             // 
@@ -220,6 +222,7 @@
             this.BtHakkimizda.TabIndex = 9;
             this.BtHakkimizda.Text = "HAKKIMIZDA";
             this.BtHakkimizda.UseVisualStyleBackColor = true;
+            this.BtHakkimizda.Click += new System.EventHandler(this.BtHakkimizda_Click);
             // 
             // BtnRenkDegistir
             // 
@@ -229,6 +232,7 @@
             this.BtnRenkDegistir.TabIndex = 10;
             this.BtnRenkDegistir.Text = "Renk Değiştir";
             this.BtnRenkDegistir.UseVisualStyleBackColor = true;
+            this.BtnRenkDegistir.Click += new System.EventHandler(this.BtnRenkDegistir_Click);
             // 
             // BtnCikis
             // 
@@ -238,6 +242,7 @@
             this.BtnCikis.TabIndex = 11;
             this.BtnCikis.Text = "Çıkış";
             this.BtnCikis.UseVisualStyleBackColor = true;
+            this.BtnCikis.Click += new System.EventHandler(this.BtnCikis_Click);
             // 
             // dataGridView1
             // 
@@ -246,8 +251,10 @@
             this.dataGridView1.Location = new System.Drawing.Point(3, 32);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(350, 585);
             this.dataGridView1.TabIndex = 0;
+            this.dataGridView1.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellDoubleClick);
             // 
             // Form1
             // 
@@ -263,6 +270,7 @@
             this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.groupBox1.ResumeLayout(false);
